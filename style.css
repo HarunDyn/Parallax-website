@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8rem;
+}
+
+.banner-1 {
+  background-image: url(./images/bg.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.banner-1 p {
+  font-size: 3rem;
+  background-color: #000;
+  color: white;
+  padding: 2.8rem 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  letter-spacing: 0.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.description-1 {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem;
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.description-1 h2 {
+  margin-bottom: 1rem;
+}
+
+.description-1 p {
+  text-align: justify;
+}
+
+.banner-2 {
+  background-image: url(./images/bg2.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.banner-2 img {
+  width: 25rem;
+  height: 5rem;
+}
+
+.description-2 {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.description-2 h2 {
+  margin-bottom: 1rem;
+}
+
+.description-2 p {
+  text-align: justify;
+}
+
+.banner-3 {
+  background-image: url(./images/bg3.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.banner-3 p {
+  font-size: 3rem;
+  background-color: #000;
+  color: white;
+  padding: 1.5rem 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  letter-spacing: 0.5rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+}
+
+.description-3 {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem;
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.description-3 h2 {
+  margin-bottom: 1rem;
+}
+
+.description-3 p {
+  text-align: justify;
+}
+
+.banner-4 {
+  background-image: url(./images/bg4.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.banner-4 p {
+  font-size: 3rem;
+  background-color: #000;
+  color: white;
+  padding: 1.5rem 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  letter-spacing: 0.5rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+}
+
+.description-4 {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.description-4 h2 {
+  margin-bottom: 1rem;
+}
+
+.description-4 p {
+  text-align: justify;
+}
+
+.banner-5 {
+  background-image: url(./images/bg.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.banner-5 p {
+  font-size: 3rem;
+  background-color: #000;
+  color: white;
+  padding: 2.8rem 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  letter-spacing: 0.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+@media (max-width: 760px) {
+  .banner-1 p {
+    font-size: 2rem;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.6rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .description-1,
+  .description-2,
+  .description-3,
+  .description-4 {
+    font-size: 0.9rem;
+  }
+
+  .banner-3 p {
+    font-size: 2rem;
+  }
+
+  .banner-4 p {
+    font-size: 2rem;
+  }
+
+  .banner-5 p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .banner-1,
+  .banner-2,
+  .banner-3,
+  .banner-4,
+  .banner-5 {
+    background-attachment: scroll;
+  }
+
+  .banner-3 p {
+    font-size: 1rem;
+  }
+
+  .banner-4 p {
+    font-size: 1rem;
+  }
+
+  .banner-5 p {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.4rem;
+    padding: 1.8rem 1rem;
+  }
+}
